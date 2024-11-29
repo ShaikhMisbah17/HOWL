@@ -57,8 +57,8 @@ Delete a product from the database.
 1.	Environment Setup 
 o	Create a new environment in Postman
 o	Add these variables: 
-	base_url: http://localhost:3000/api
-	token: Leave empty (will be filled after login)
+      	base_url: http://localhost:3000/api
+      	token: Leave empty (will be filled after login)
 
            Create Product: POST /api/products 
            Update Product: PUT /api/products/:id 
@@ -67,8 +67,8 @@ o	Add these variables:
 2.	Collection Setup 
 o	Create a new collection
 o	For protected routes, go to the Authorization tab and select: 
-	Type: "Bearer Token"
-	Token: {{token}}
+     	Type: "Bearer Token"
+     	Token: {{token}}
 
 3.	Testing Flow 
 o	Register a user (POST /register)
